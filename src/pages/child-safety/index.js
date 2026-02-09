@@ -74,7 +74,10 @@ const childSafety = () => {
           appropriate law enforcement authorities and relevant regional bodies
           (e.g., National Center for Missing & Exploited Children or
           equivalent). - We comply with all applicable child protection laws and
-          Google Play Child Safety Standards. :contentReference
+          Google Play Child Safety Standards.{" "}
+          <a href="https://support.google.com/googleplay/android-developer/answer/9878809?sjid=2353401164468486223-EU&visit_id=639062335609341260-1144823152&rd=1#child_safety">
+            Reference
+          </a>
           <h3>In-App Reporting</h3>
           We provide a reporting mechanism within the app for users to report
           unsafe or suspicious content or behavior. Reports are reviewed
