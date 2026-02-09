@@ -1,13 +1,11 @@
+import React from "react";
 import Image from "next/image";
 import logo from "@/images/appicon.svg";
 import facebook from "@/images/facebook.svg";
 import instagram from "@/images/instagram.svg";
 import x from "@/images/x.svg";
-import girl from "@/images/girl.png";
-import appstore from "@/images/appstore.svg";
-import googleplay from "@/images/googleplay.svg";
 
-export default function Home() {
+const childSafety = () => {
   return (
     <>
       <div className="container">
@@ -19,7 +17,7 @@ export default function Home() {
                 alt="paylasim.app logo"
                 width={48}
                 height={48}
-              />{" "}
+              />
               Paylasim.app
             </a>
           </div>
@@ -59,62 +57,47 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero">
-          <div className="hero-left">
-            <h1>
-              Hazır Durum <br /> Mesajları Uygulaması
-            </h1>
-            <p>
-              Paylaşım.app ile istediğiniz arka planı seçin, binlerce hazır
-              mesaj arasından kaydırarak dilediğinizi seçin ve hemen sosyal
-              medya hesaplarınızda paylaşın. Üstelik tamamen ücretsiz!
-            </p>
-
-            <div className="yukle">
-              <a
-                href="https://play.google.com/store/apps/details?id=com.helpfulapps.paylasimapp"
-                className="yukle-box"
-              >
-                <Image
-                  src={googleplay}
-                  alt="paylasim.app logo"
-                  width={164}
-                  height={32}
-                />
-              </a>{" "}
-              <a
-                href="https://apps.apple.com/tr/app/paylasim-app-durum-mesajlar%C4%B1/id6739170806?l=tr"
-                className="yukle-box"
-              >
-                <Image
-                  src={appstore}
-                  alt="paylasim.app logo"
-                  width={164}
-                  height={32}
-                />
-              </a>
-            </div>
-          </div>
-
-          <div className="hero-right">
-            {" "}
-            <Image src={girl} alt="paylasim.app logo" height={500} />
-          </div>
+        <div className="content">
+          <h1>
+            Paylasim.app(Beautiful Quotes Status Messages) Child Safety & CSAE
+            Policy
+          </h1>
+          <h3>Zero Tolerance for CSAE</h3>
+          We have a zero-tolerance policy for Child Sexual Abuse and
+          Exploitation (CSAE). Any content, behavior, or activity that involves
+          or facilitates the sexual exploitation of minors, including Child
+          Sexual Abuse Material (CSAM), grooming, sextortion, sexualization of
+          minors, or trafficking, is strictly prohibited.
+          <h3>Enforcement and Actions</h3>- Any user found engaging in or
+          sharing CSAE content will be immediately banned, and such content will
+          be removed. - Confirmed CSAM or CSAE cases will be reported to the
+          appropriate law enforcement authorities and relevant regional bodies
+          (e.g., National Center for Missing & Exploited Children or
+          equivalent). - We comply with all applicable child protection laws and
+          Google Play Child Safety Standards. :contentReference
+          <h3>In-App Reporting</h3>
+          We provide a reporting mechanism within the app for users to report
+          unsafe or suspicious content or behavior. Reports are reviewed
+          promptly.
+          <h3>Child Safety Contact</h3>
+          If you have concerns about child safety or CSAE content, you can
+          contact us at: support@paylasim.app
         </div>
       </div>
       <div className="container">
         <div className="footer">
-          <a href="">
+          <a href="/">
             <Image src={logo} alt="paylasim.app logo" width={24} height={24} />{" "}
             Copyright © 2024 Paylasim.app
           </a>
           <div className="footer-links">
             <a href="/usage">Kullanım Şartları</a>
             <a href="/privacy">Gizlilik Politikası</a>
-            <a href="/child-safety">Child Safety</a>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
+
+export default childSafety;

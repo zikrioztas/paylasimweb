@@ -60,9 +60,10 @@ const privacy = () => {
         <div className="content">
           <h1>Paylasim.app Gizlilik Politikası</h1>
           <p>
-            Yürürlük Tarihi: 01.12.2024 Paylasim.app olarak gizliliğinize önem
-            veriyoruz. Bu Gizlilik Politikası, uygulamamızın veri toplama ve
-            işleme konusundaki yaklaşımını açıklamaktadır.
+            Yürürlük Tarihi: 01.12.2024 Paylasim.app (Beautiful Quotes Status
+            Messages) olarak gizliliğinize önem veriyoruz. Bu Gizlilik
+            Politikası, uygulamamızın veri toplama ve işleme konusundaki
+            yaklaşımını açıklamaktadır.
           </p>
           <h3>1. Toplanan Veriler</h3>
           Uygulamamız, kullanıcı deneyimini geliştirmek ve reklam gösterimi
@@ -105,6 +106,7 @@ const privacy = () => {
           <div className="footer-links">
             <a href="/usage">Kullanım Şartları</a>
             <a href="/privacy">Gizlilik Politikası</a>
+            <a href="/child-safety">Child Safety</a>
           </div>
         </div>
       </div>
